@@ -7,20 +7,22 @@
 import random
 import numpy as np
 from decimal import Decimal
+#M=20
+M=5000
 ls=[]
 lc=[]
 la=[]
 for i in range(10000000000):
-        sum=0
+        s=0
         counter=0
         a=[]
-        while sum<20:
+        while s<M:
             a=random.randint(1,6)
-            sum+=a
+            s+=a
             counter+=1
-            a=sum/counter
+            a=s/counter
             pass
-        ls.append(sum)
+        ls.append(s)
         lc.append(counter)
         la.append(a)
 pass
@@ -31,7 +33,7 @@ nplc=np.array(lc)
 MeanC=str(Decimal(np.mean(nplc)))
 npla=np.array(la)
 MeanA=str(Decimal(np.mean(npla)))
-f = open("m20e10.txt", "x")
+f = open("m5000e10.txt", "x")
 f.write(meanM)
 f.write(stdM)
 f.write(MeanC)
