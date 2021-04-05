@@ -1,4 +1,4 @@
-# DataIncubatorChallenge
+# Analysing trends in interdisciplinary machine learning researches
 
 Project description.
 As a biologist in the world of machine learning and data science, I'm eager to expand my interdisciplinary skill sets. However, there are so many technical things to learn and I don't know where to start. I believe there are also many other students from different areas of study who wish to know what would be the most powerful tools for them in the field of machine learning. 
