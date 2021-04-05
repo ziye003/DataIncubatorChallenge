@@ -11,4 +11,4 @@ In summary, for this project
 - Break down paper abstract to word lists.
 - Corrected datasets for synonyms and bigrams/trigrams of the dataset using NLTK and PyDictionary toolkit.
 - Identified important terms/skills and high-frequency terms in interdisciplinary studies for multiple combinations.
-- Presented data using word cloud, venn diagrams and histograms.
+- Presented data using word cloud, venn diagrams and histograms. 
